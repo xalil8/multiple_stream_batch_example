@@ -1,0 +1,53 @@
+2023-10-03 11:16:49.349 | INFO     | __main__:test_camera_connection:13 - camera1 process is started.
+2023-10-03 11:16:49.351 | INFO     | __main__:test_camera_connection:13 - camera2 process is started.
+2023-10-03 11:16:49.352 | INFO     | __main__:test_camera_connection:13 - camera3 process is started.
+2023-10-03 11:16:49.354 | INFO     | __main__:test_camera_connection:13 - camera4 process is started.
+2023-10-03 11:16:50.576 | WARNING  | streamer:__runStream:248 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Stream Started!
+2023-10-03 11:16:50.576 | WARNING  | streamer:__runStream:248 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Stream Started!
+2023-10-03 11:16:50.577 | WARNING  | streamer:__runStream:248 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Stream Started!
+2023-10-03 11:16:50.578 | WARNING  | streamer:__runStream:248 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Stream Started!
+2023-10-03 11:16:50.581 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Pipeline state changed from null to ready.
+2023-10-03 11:16:50.581 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Pipeline state changed from null to ready.
+2023-10-03 11:16:50.582 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Pipeline state changed from ready to paused.
+2023-10-03 11:16:50.582 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Pipeline state changed from null to ready.
+2023-10-03 11:16:50.583 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Pipeline state changed from ready to paused.
+2023-10-03 11:16:50.583 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Pipeline state changed from ready to paused.
+2023-10-03 11:16:50.581 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Pipeline state changed from null to ready.
+2023-10-03 11:16:50.583 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Pipeline state changed from ready to paused.
+2023-10-03 11:16:53.639 | ERROR    | streamer:__busMessages:202 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Error received from element source: Could not open resource for reading and writing.
+2023-10-03 11:16:53.639 | ERROR    | streamer:__busMessages:202 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Error received from element source: Could not open resource for reading and writing.
+2023-10-03 11:16:53.639 | ERROR    | streamer:__busMessages:202 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Error received from element source: Could not open resource for reading and writing.
+2023-10-03 11:16:53.639 | ERROR    | streamer:__busMessages:203 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Debugging information: gstrtspsrc.c(7893): gst_rtspsrc_retrieve_sdp (): /GstPipeline:streamer-pipeline/GstRTSPSrc:source:
+Failed to connect. (Generic error)
+2023-10-03 11:16:53.639 | ERROR    | streamer:__busMessages:203 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Debugging information: gstrtspsrc.c(7893): gst_rtspsrc_retrieve_sdp (): /GstPipeline:streamer-pipeline/GstRTSPSrc:source:
+Failed to connect. (Generic error)
+2023-10-03 11:16:53.639 | ERROR    | streamer:__busMessages:203 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Debugging information: gstrtspsrc.c(7893): gst_rtspsrc_retrieve_sdp (): /GstPipeline:streamer-pipeline/GstRTSPSrc:source:
+Failed to connect. (Generic error)
+2023-10-03 11:16:53.643 | ERROR    | streamer:__busMessages:202 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Error received from element source: Could not open resource for reading and writing.
+2023-10-03 11:16:53.643 | ERROR    | streamer:__busMessages:203 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Debugging information: gstrtspsrc.c(7893): gst_rtspsrc_retrieve_sdp (): /GstPipeline:streamer-pipeline/GstRTSPSrc:source:
+Failed to connect. (Generic error)
+2023-10-03 11:16:54.954 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 11:16:54.954 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 11:16:54.954 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 11:16:54.954 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 11:16:54.954 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 11:16:55.589 | INFO     | __main__:test_camera_connection:16 - camera1 stream is started.
+2023-10-03 11:16:55.588 | INFO     | __main__:test_camera_connection:16 - camera4 stream is started.
+2023-10-03 11:16:55.588 | INFO     | __main__:test_camera_connection:16 - camera3 stream is started.
+2023-10-03 11:16:55.589 | WARNING  | streamer:stopStream:269 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Stopping Stream...
+2023-10-03 11:16:55.589 | WARNING  | streamer:stopStream:269 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Stopping Stream...
+2023-10-03 11:16:55.589 | WARNING  | streamer:stopStream:269 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Stopping Stream...
+2023-10-03 11:16:55.589 | INFO     | __main__:test_camera_connection:16 - camera2 stream is started.
+2023-10-03 11:16:55.589 | WARNING  | streamer:stopStream:269 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Stopping Stream...
+2023-10-03 11:16:55.590 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Pipeline state changed from paused to ready.
+2023-10-03 11:16:55.590 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Pipeline state changed from paused to ready.
+2023-10-03 11:16:55.590 | INFO     | streamer:__busMessages:213 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Pipeline state changed from paused to ready.
+2023-10-03 11:16:55.690 | WARNING  | streamer:stopStream:288 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.23:554/Streaming/Channels/1/] Stream Stopped!
+2023-10-03 11:16:55.690 | WARNING  | streamer:stopStream:288 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.6:554/Streaming/Channels/1/] Stream Stopped!
+2023-10-03 11:16:55.690 | WARNING  | streamer:stopStream:288 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Stream Stopped!
+2023-10-03 11:16:58.694 | WARNING  | streamer:stopStream:288 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.15:554/Streaming/Channels/1/] Stream Stopped!
+2023-10-03 11:16:59.059 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 11:16:59.266 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
+2023-10-03 12:18:42.902 | INFO     | __main__:test_camera_connection:13 - camera1 process is started.
+2023-10-03 12:18:42.920 | ERROR    | streamer:__createElements:103 - [STREAMER_object_rtsp://admin:Welc0me12@192.168.1.5:554/Streaming/Channels/1/] Not all elements could be created.
+2023-10-03 12:18:45.693 | DEBUG    | __main__:signal_handler:38 - SIGINT RECEIVED.
